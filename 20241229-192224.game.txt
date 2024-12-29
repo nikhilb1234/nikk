@@ -1,0 +1,18 @@
+friends=int(input("enter the number of friends avilable for game:"))
+if friends==2:
+    print("selected game:running")
+    print("let us play running")
+elif friends==4:
+    print("selected game:carom")
+    print("let us play carom")
+elif friends==7:
+    print("selected game:kabbadi")
+    print("let us play kabbadi")
+elif friends==11:
+    print("selected game:cricket")
+    print("let us play cricket")
+else:
+    print("invalid numbers")
+        
+        
+            
