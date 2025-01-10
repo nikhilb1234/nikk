@@ -1,0 +1,20 @@
+def student_details():
+    # Details of the student
+    name = "nikhil B"
+    class_name = "CS class room101 12th Grade"
+    age = 17
+    
+    # Print student details
+    print(f"Name: {name}")
+    print(f"Class: {class_name}")
+    print(f"Age: {age}")
+    
+    # Marks in current semester (example marks)
+    marks = [85, 90, 78, 92, 88]  # You can change these as per the actual marks
+    
+    # Calculate average of marks
+    avg_marks = sum(marks) / len(marks)
+    print(f"Average Marks in Current Semester: {avg_marks:.2f}")
+
+# Call the function
+student_details()
