@@ -1,0 +1,78 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+      <background color="blue"></background>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>switch color game</title>
+      <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+     <button class="button-styling">Toggle Background Color</button>
+     <script type="text/javascript">
+     var color = ["#000000", "#ffffff"];
+     var i = 0;
+     document.querySelector("button").addEventListener("click",  function(){
+           i = i  <  color.length ? ++i : 0;
+          document.querySelector("body").style.background = color[i]
+     })
+    </script>
+</body>
+</html>  <style>body{
+  margin: 0;
+  padding: 0%;
+  backgroung: #ffffff;
+}
+button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  backgroung: #white;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button-styling{
+  background-color: rgb(4, 0, 240);
+  color: #ffffff;
+  border-radius: 20px;
+}
+  
+  
+  
+  
+  
+      </style><script>body{
+  margin: 0;
+  padding: 0%;
+  backgroung: #ffffff;
+}
+button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  backgroung: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button-styling{
+  background-color: rgb(4, 0, 240);
+  color: white;
+  border-radius: 20px;
+}
+  
+  
+  
+  
+  
+      </script>
