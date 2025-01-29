@@ -1,0 +1,12 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><script>function printStudentInfo(name, Class, semMarks) {
+    const average = semMarks.reduce((sum, mark) => sum + mark, 0) / semMarks.length;
+    console.log(`Name: ${name}`);
+    console.log(`Class: ${Class}`);
+    console.log('Sem: 6th sem');
+    console.log(`Average Marks: ${average.toFixed(2)}`);
+  }
+  const Name = "Nikhil B";
+  const Class = "Diploma";
+  const Sem = "6th sem";
+  const allSemCgpa = [8.89, 9.55, 9.23, 9.69];
+  printStudentInfo(Name, Class, allSemCgpa);</script>
