@@ -6,6 +6,5 @@ if username=="Admin" and password=="gptk@123":
 elif username=="nikhil" and password=="nikhil@123":
     print("welcome nikhil")
     print("Good Morning,Have a great day.")  
-else:
     print("invalid username or password")
     
