@@ -1,4 +1,4 @@
-username=input("Enter the username:")
+usename=input("Enter the username:")
 password=input("Enter the password:")
 if username=="Admin" and password=="gptk@123":
     print("welcome Admin")
