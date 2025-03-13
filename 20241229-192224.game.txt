@@ -10,9 +10,7 @@ elif friends==7:
     print("let us play kabbadi")
 elif friends==11:
     print("selected game:cricket")
-    print("let us play cricket")
-
-    print("invalid numbers")
+    print("let us play cricket"
         
         
             
