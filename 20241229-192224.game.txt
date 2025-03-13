@@ -11,7 +11,7 @@ elif friends==7:
 elif friends==11:
     print("selected game:cricket")
     print("let us play cricket")
-else:
+
     print("invalid numbers")
         
         
